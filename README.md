@@ -1,8 +1,8 @@
-# Matters Arising Comment on CSA
+# Matters Arising Comment CSA
 
 ## Overview
 
-This repository provides MATLAB scripts developed or modified in the course of the expertise of the paper 
+This repository provides MATLAB scripts developed or modified as part of the evaluation work for the paper 
 He, Y., Chen, M. K., Huang, M. et al. Dispersive Meta-lens Thermometry for High-temperature Measurements. Nature Communications 16, 10090 (2025). https://doi.org/10.1038/s41467-025-65171-7
 and the related MATLAB scripts available in the repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA
 The original repository provides MATLAB scripts and example datasets for temperature reconstruction from spectral measurement data according to the CSA method (Chameleon Swarm Algorithm).
