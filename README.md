@@ -4,9 +4,12 @@
 
 This repository provides MATLAB scripts developed or modified as part of the evaluation work for the paper  
 He, Y., Chen, M. K., Huang, M. et al. Dispersive Meta-lens Thermometry for High-temperature Measurements. Nature Communications 16, 10090 (2025). https://doi.org/10.1038/s41467-025-65171-7
-and the related MATLAB scripts available in the repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA
+and the related MATLAB scripts available in the repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA. 
+
 The original repository provides MATLAB scripts and example datasets for temperature reconstruction from spectral measurement data according to the CSA method (Chameleon Swarm Algorithm).
-A document 'Matters Arising' was submitted to Nature Communications which provides results obtained with the codes in the present repository. All scripts except one come from the original repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA. Some of them were modified in order to :
+A document 'Matters Arising' was submitted to Nature Communications which provides results obtained with the codes in the present repository.
+
+All scripts except one come from the original repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA. Some of them were modified in order to :
 -	fix the bug detected in CSA ; CSA can also run as originally, with the bug present;
 -	display intermediate results (raw radiance signals, their ratio, the inferred emissivity, the emissivity and radiance temperatures obtained after the last iteration, the final mean temperature and the associated emissivity spectrum);
 -	display additional information such as the diagram of permitted solutions, bias and RMS errors ;
@@ -15,9 +18,7 @@ A document 'Matters Arising' was submitted to Nature Communications which provid
 When a script was modified, the suffix '_VMA' (Version Matters Arising) was added to its name.  
 The experimental data are those available in the original repository (tests performed on a blackbody and an alumina plate).
 
-In addition, a script was specifically developed: MWT_permitted_solutions_VMA.m. It was used to obtain the results presented in the main paper 'Matters Arising: Comment on Dispersive Meta-lens Thermometry for High-temperature Measurements'. The results from all other scripts are in the Supplementary material. ---
-
-The experimental data obtained by He et al. have to be downloaded from the repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA.
+In addition, a script was specifically developed: MWT_permitted_solutions_VMA.m. It was used to obtain the results presented in the main paper 'Matters Arising: Comment on Dispersive Meta-lens Thermometry for High-temperature Measurements'. The results from all other scripts are in the Supplementary material; these scripts use experimental data obtained by He et al. (https://github.com/KirinShi/Temperature-reconstruction-using-CSA).
 
 ## Repository Structure
 
