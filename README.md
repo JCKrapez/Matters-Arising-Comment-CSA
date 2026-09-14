@@ -27,19 +27,21 @@ Project/
 │    └── MWT_permitted_solutions_VMA.m
 ├── Temperature-reconstruction-using-CSA-VMA/
     ├── src/ 
-        ├── process/
-        │    ├── temperature_reconstruction_blackbody_cali_VMA.m
-        │    └── temperature_reconstruction_materials_VMA.m
-        └── temperature_retrieval/
-            ├── spectrumTemperature5_5_VMA.m
-            ├── temrecon_singlepoint_VMA.m
-            └── CSA/
-                ├── Chameleon_VMA.m
-                ├── get_orthonormal.m
-                ├── initialization.m
-                ├── rotation.m
-                ├── RotMatrix.m
-
+    │    ├── process/
+    │    │    ├── temperature_reconstruction_blackbody_cali_VMA.m
+    │    │    └── temperature_reconstruction_materials_VMA.m
+    │    └── temperature_retrieval/
+    │        ├── spectrumTemperature5_5_VMA.m
+    │        ├── temrecon_singlepoint_VMA.m
+    │        └── CSA/
+    │            ├── Chameleon_VMA.m
+    │            ├── get_orthonormal.m
+    │            ├── initialization.m
+    │            ├── rotation.m
+    │            ├── RotMatrix.m
+    ├── data/  
+        ├── blackbody/
+        └── materials/
 ```
 
 ### Source Code
@@ -52,7 +54,7 @@ Project/
 * `temrecon_singlepoint_VMA.m`: MATLAB script for single-point temperature reconstruction.
 
 > `Temperature-reconstruction-using-CSA-VMA/src/process/`
-> This folder contains modified processing scripts for the provided example datasets. 
+> This folder contains modified processing scripts for the example datasets. 
 * `temperature_reconstruction_blackbody_cali_VMA.m`: Modified processing script for the blackbody temperature reconstruction datasets. In addition to the original version, many options are added to display intermediate and additional results, with the bug present or the bug fixed.
 * `temperature_reconstruction_materials_VMA.m`: Modified processing script for the material temperature reconstruction datasets. In addition to the original version, many options are added to display intermediate and additional results, with the bug present or the bug fixed.
 
@@ -60,7 +62,7 @@ Project/
 > This folder supplement the original repository with the following script:
 * `MWT_permitted_solutions_VMA.m`: Script to display the permitted temperature and emissivity solutions for two generic cases: blackbody and alumina with emissivities assumed linear or taken from the literature ('Matters Arising' core paper).
 
-### Data (to be downloaded from the repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA)
+### Data (from the repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA)
 
 > `data/` 
 * `blackbody/`: Dataset corresponding to the blackbody reconstruction case. The folders 1 to 21 correspond to different temperature conditions from 1873 K to 1673 K with an interval of 10 K.
@@ -80,7 +82,6 @@ No additional MATLAB toolboxes are required unless otherwise specified.
 
 1. Open MATLAB R2021a.
 2. Set the repository root directory as the MATLAB current working directory.
-3. Download the folder `data/` from the original repository https://github.com/KirinShi/Temperature-reconstruction-using-CSA and store it in the folder Temperature-reconstruction-using-CSA-VMA/
 3. Run the required script:
 
 For displaying the permitted temperature and emissivity solutions for the two generic cases (blackbody and alumina) presented in the core paper "Matters Arising" :
